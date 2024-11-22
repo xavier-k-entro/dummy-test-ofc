@@ -3,11 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://xavier-k-entro.github.io/dummy-test-ofc",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "bun run vite build",
+    "preview": "bun run vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
